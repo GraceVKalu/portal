@@ -1,1 +1,81 @@
-<h1>Portal</h1>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Grace Kalu: Portal</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+ </head>
+ <body>
+     <header>
+     <h1>Grace Kalu</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="https://gracevkalu.github.io/time-of-day/index.html" target="_blank">Time Of Day</a>
+            <a href="https://gracevkalu.github.io/daily-grind/test.html" target="_blank">Daily Grind</a>
+            <a href="https://gracevkalu.github.io/dom-play/index.html" target="_blank">DOM Play</a>
+            <a href="https://github.com/GraceVKalu" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/uwaezu-victoria-grace-kalu-075920173/" target="_blank">LinkedIn</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
+     </header>
+     
+   <main class="wrapper">
+     <!--
+     <img class="desktop" src="images/desktop.jpg" alt="Photo of an adorable GSD puppy" />
+       
+     <img class="tablet" src="images/tablet.jpg" alt="Photo of an adorable GSD puppy" />
+       
+     <img class="phone" src="images/phone.png" alt="Photo of an adorable but large GSD in the lap of his best buddy" />
+     -->  
+        <picture class="profile">
+            <source media="(min-width: 1200px)" srcset="images/note.jpeg">
+            <source media="(min-width: 501px)" srcset="images/comp.jpeg">
+            <img src="images/proff2.jpg" alt="That's me!"/>
+        </picture>   
+       <h2 class="subheader">About Me</h2>
+       
+       <p>Hi my name is Grace, I'm an open minded communicator and compassionate leader. I love problem solving and am able to work in diverse workplace situations successfully.</p>
+       
+       <p>Click here, <a href="https://gracevkalu.wordpress.com/" target="_blank">Professional Webpage.</a> This is another way to connect with me and see my work.</p>
+       
+       
+       
+       <p>Currently I'm in the Software Development & Testing track program at Year Up Puget Sound and working on attaining my project management certification. I became interested in STEM through programs like ChickTech Seattle and MESA. From there I joined another program called Girls Who Code which combined both my loves for business, and computer science. I plan on pursuing both as career!</p>
+           
+       <p>On top of that, I am a part of the ambassador program at Year Up because I believe in bridging the opportunity divide for people of color.</p>
+        
+       <br><br><br>
+
+       <h3>Page Origin</h3>
+
+       <p>The HTML/CSS comes from Sara Newman's WEB110 class as taught at Seattle Central. This page provides a basis for students to build a responsive portal page.</p>
+
+       <p>Study how this page is built, and use it as a foundation for your portal or other sites!</p>
+       
+       <p>Copyright [2014-2020] [<a href="http://newmanix.com/sara.php">Sara Newman</a>]. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License, Version 2.0</a>
+        </p>
+
+     <footer>
+      <p><small>&copy; 2019 by <a href="contact.php">Contact (Your Name Here) </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+    </footer>
+  </main>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+  </script>
+     
+ </body>
+</html>
